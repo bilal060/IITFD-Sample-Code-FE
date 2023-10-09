@@ -1,0 +1,42 @@
+.cp-basic-card-root {
+  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+
+  .card-body {
+    width: 80%;
+    height: 100%;
+    float: left;
+    display: grid;
+    place-items: center;
+    border: none;
+  }
+
+  .card-title {
+    min-width: 250px;
+  }
+
+  .title {
+    color: #006600;
+    font-size: x-small;
+    cursor: pointer;
+  }
+
+  .card-action {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-total {
+    color: white;
+    font-size: x-small;
+  }
+
+  .percentage-dif {
+    color: #006600;
+    font-size: x-small;
+  }
+
+  .title {
+    color: #006600;
+    font-size: small;
+  }
+}

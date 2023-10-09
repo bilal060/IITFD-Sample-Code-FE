@@ -1,0 +1,36 @@
+const rowsData = [
+  {
+    id: "1",
+    companyName: "Google",
+    primarilyType: "Seller and Buyer",
+    country: "USA",
+    city: "New York",
+    taxNumber: 2390,
+    dunsNumber: "1234",
+    postalCode: "10001",
+    status: "Active",
+  },
+  {
+    id: "2",
+    companyName: "Walmart",
+    primarilyType: "Seller",
+    country: "USA",
+    city: "New York",
+    taxNumber: 2390,
+    dunsNumber: "1234",
+    postalCode: "10004",
+    status: "Pending",
+  },
+  {
+    id: "3",
+    companyName: "Etsy",
+    primarilyType: "Buyer",
+    country: "USA",
+    city: "New York",
+    taxNumber: 2390,
+    dunsNumber: "1234",
+    postalCode: "10002",
+    status: "Rejected",
+  },
+];
+export default rowsData;

@@ -1,0 +1,17 @@
+.cp-country-select-root {
+  .MuiInputBase-input{
+    width: 100%;
+    font-size: 0.8125rem;
+    padding: 0.47rem 0.75rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    height: 12px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+}

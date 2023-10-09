@@ -1,0 +1,12 @@
+.cp-titlebar-root{
+    flex-grow: 1; 
+    .toolbar-wrapper{
+        background-color: #2A3042
+    }
+    .typography-left-wrapper{
+        flex-grow: 1
+    }
+    .typography-right-wrapper{
+        flex-grow: 0
+    }
+}

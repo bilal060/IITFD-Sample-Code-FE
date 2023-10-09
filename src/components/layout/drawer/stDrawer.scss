@@ -1,0 +1,22 @@
+.MuiDrawer-root {
+  .MuiListItemText-root {
+    transition: 0.4s;
+    margin-left: 10px;
+  }
+  &.drawer-closed {
+    .MuiListItemText-root {
+      visibility: hidden;
+      opacity: 0;
+    }
+    .MuiListItemIcon-root {
+      .MuiBadge-root {
+        visibility: hidden;
+        opacity: 0;
+      }
+    }
+    .MuiSvgIcon-root {
+      transform: translateX(-10px);
+      font-size: 1rem;
+    }
+  }
+}

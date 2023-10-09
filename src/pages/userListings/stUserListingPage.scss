@@ -1,0 +1,15 @@
+.cp-user-listing-page-root {
+  background-color: #f8f8fb;
+  .paper-card {
+    box-shadow: 0 0.75rem 1.5rem #12263f08 !important;
+  }
+  .data-grid-wrapper {
+    border: none;
+  }
+  .inline {
+    display: inline;
+  }
+  .bold {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,17 @@
+export type tpContacts = {
+  id:string,
+  businessTitle: string,
+  MrMrs: string,
+  name: string,
+  lastName: string,
+  email: string,
+  phone: string,
+  mobilePhone: string,
+  fax: string,
+  addressName: string,
+  country: string,
+  state: string,
+  city: string,
+  postCode: string,
+  address: string,
+}

@@ -1,0 +1,110 @@
+.cp-create-service-location-root {
+  padding-top: 1.5rem;
+  .table-box {
+    height: 300px;
+  }
+  .buttons{
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  .buttons:hover{
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  .cp-box-form {
+    width: 100%;
+    .input-label-text{
+      text-shadow: 0 0 #d1d1d1;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+    input[type="tel" i], .MuiInputBase-input{
+      width: 100%;
+      padding: 0.47rem 0.75rem;
+      font-size: 0.8125rem;
+      font-weight: 400;
+      height: 12px;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    .description-box{
+      width: -webkit-fill-available;;
+      border: 1px solid #d1d1d1;
+    }
+    .description-box:focus{
+      width: 365px;
+      border: 1px solid #d1d1d1;
+      outline: none;
+    }
+    .i-icon{
+     position: absolute;
+     margin-top: -40px;
+     margin-left: 750px;
+    }
+    .css-viou3o-MuiAutocomplete-root .MuiInput-root .MuiInput-input {
+      padding: 7px 4px 8px 10px;
+    }
+    .MuiAutocomplete-hasPopupIcon.css-viou3o-MuiAutocomplete-root .MuiAutocomplete-inputRoot{
+      padding-right: 0px;
+    }
+    .registered-comapnies{
+      margin-bottom: 10em;
+    }
+    .MuiFormControl-root,
+    .MuiAutocomplete-root {
+      margin: 0px;
+      width: 100%;
+      .MuiOutlinedInput-root {
+        padding: 0px;
+      }  
+    }
+    .MuiButton-contained {
+      text-transform: capitalize;
+      letter-spacing: 0.1em;
+    }
+  }
+  .MuiTypography-body1 {
+    font-size: 0.8125rem;
+    font-weight: 500;
+  }
+  .number-text-area {
+    margin-bottom: 1rem;
+    padding-left: 6px;
+    padding-top: 5px;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: -webkit-fill-available;
+    resize: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .number-text-area:focus {
+    outline: none;
+    margin-bottom: 1rem;
+    padding-left: 6px;
+    padding-top: 5px;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: -webkit-fill-available;
+    resize: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .MuiAutocomplete-hasPopupIcon.css-tbonkk-MuiAutocomplete-root .MuiAutocomplete-inputRoot{
+    padding-right: 0px;
+  }
+  .css-tbonkk-MuiAutocomplete-root .MuiInput-root .MuiInput-input {
+    padding: 7px 4px 8px 10px;
+  }
+}

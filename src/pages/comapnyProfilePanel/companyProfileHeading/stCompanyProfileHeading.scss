@@ -1,0 +1,13 @@
+.cp-company-profile-heading-root {
+  padding: 10px;
+  border-bottom: 1px gainsboro solid;
+  .company-profile-heading-body {
+    padding: 5px 5px 5px 35px;
+    .company-profile-logo {
+      max-height: 60px;
+      border: 1px gainsboro solid;
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
+    }
+  }
+}

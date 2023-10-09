@@ -1,0 +1,48 @@
+
+.cp-items-list-root {
+  width: 100%;
+  max-width: 365px;
+  ::-webkit-scrollbar {
+      width: 0.4em;
+    }
+  ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.00);
+    }
+  ::-webkit-scrollbar-thumb {
+      background: rgba(0,0,0,.1);
+      outline: "1px solid slategrey",
+    }
+  .items-list-search {
+    margin:15px;
+    .items-list-search-field {
+      fieldset {
+        height: 40px;
+        border-radius: 40px;
+      }
+      input {
+        padding-right: 30px;
+      }
+    }
+    .items-list-search-icon {
+      height: 35px;
+      svg {
+        margin: 10px 0 0 -30px;
+      }
+    }
+  }
+  .items-list-radio-button {
+    position: absolute;
+    margin-top: 50px;
+  }
+  .items-list-icons {
+    max-height: 25px;
+    max-width: 25px;
+  }
+ 
+  .items-list-text {
+    font-family: Poppins, sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    letter-spacing: 0.00938em !important;
+  }
+}

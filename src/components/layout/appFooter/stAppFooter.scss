@@ -1,0 +1,24 @@
+.app-footer-comp-root {
+  .MuiPaper-root {
+    margin:0 !important;
+  }
+  .footer-items {
+    padding: 0px 10px;
+    .footer-logo {
+      padding: 4px;
+      img {
+        max-height: 30px;
+        max-width: 300px;
+        object-fit: contain;
+      }
+    }
+    .MuiTypography-root{
+      font-family: 'Poppins',sans-serif;
+      font-size: 0.875rem;
+      padding: 4px;
+    }
+    .MuiIconButton-root{
+      padding: 4px;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.cp-user-listing-page-root {
+  background-color: #f8f8fb;
+
+  .grid-col-12 {
+    width: 100%;
+
+    .paper-card {
+      box-shadow: 0 0.75rem 1.5rem #12263f08 !important;
+
+      .page-main-heading {
+        padding: 2%;
+
+        .add-button {
+          margin-left: 3%;
+        }
+      }
+
+      .table-box {
+        height: 400;
+        width: "100%"
+      }
+    }
+  }
+
+  .data-grid-wrapper {
+    border: none;
+  }
+
+  .inline {
+    display: inline;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+}

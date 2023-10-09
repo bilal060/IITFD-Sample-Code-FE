@@ -1,0 +1,84 @@
+.app_bar_comp_root {
+  .header-toolbar-comp {
+    .head-toolbar-user-type {
+      margin-right: 35%;
+      .head-toolbar-user-type-dropdown {
+        width: 130px;
+      }
+    }
+    .head-toolbar-list {
+      position: absolute;
+      right: 0;
+      padding-right: 20px;
+      a, li {
+        float: left;
+      }
+      .head-toolbar-profile-username {
+        margin-left: -15px;
+      }
+      .head-toolbar-list-dropdown {
+        position: relative;
+        display: inline-block;
+        .head-toolbar-list-dropbtn {
+          color: white;
+          border:none;
+          background: none;
+          .head-toolbar-profile-icon {
+            height: 35px;
+            width: 35px;
+            margin-top: -5px;
+          }
+        }
+      }
+      .head-toolbar-list-dropdown-content {
+        display: none;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        transform: translateX(-130px);
+
+      }
+      .head-toolbar-list-dropdown-content span {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .head-toolbar-list-dropdown-content span:hover {background-color: #ddd;}
+      .head-toolbar-list-dropdown:hover .head-toolbar-list-dropdown-content {display: block; position: fixed;}
+    }
+  }
+  @media (min-width: 600px) {
+    .header-toolbar-comp {
+      min-height: 70px;
+    }
+  }
+  .popper {
+    margin-top: 55px;
+    .MuiListItem-button:hover {
+      color: red;
+    }
+  }
+  .fade {
+    transform-origin: center bottom;
+    top: 50px;
+  }
+  .MuiTypography-h6 {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.0095em;
+  }
+  .MuiIconButton-label {
+    .MuiTypography-body1 {
+      font-size: 0.9125rem;
+      font-weight: 400;
+      text-transform: lowercase;
+      font-family: "Poppins", sans-serif;
+    }
+    .k-icon {
+      font-size: 12px;
+    }
+  }
+}

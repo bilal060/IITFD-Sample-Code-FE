@@ -1,0 +1,19 @@
+.cp-simple-dialog-root {
+  .k-dialog-buttongroup.k-actions {
+    border-top: 0 !important;
+    padding: 0 !important;
+  }
+  .k-content.k-window-content.k-dialog-content {
+    padding-top: 0 !important;
+  }
+
+  &.dialog-size-auto { .k-widget.k-window.k-dialog { width: auto; } }
+  &.dialog-size-sm { .k-widget.k-window.k-dialog { width: 350px; } }
+  &.dialog-size-md { .k-widget.k-window.k-dialog { width: 450px; } }
+
+  .k-window-actions{
+    .k-button.k-flat,.k-button::after {
+      border-radius: 50%;
+    }
+  } 
+}

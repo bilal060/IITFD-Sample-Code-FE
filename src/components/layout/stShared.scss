@@ -1,0 +1,97 @@
+.layout_comp_root {
+  @media (min-width: 600px) {
+    .MuiToolbar-root {
+      min-height: 70px;
+    }
+    .app_pages_tab_comp_root{
+      margin-top: 6px;
+    }
+  }
+  .header-toolbar-comp{
+    .message-comp{   
+      position: absolute;
+      left: 18rem;
+      top: 3.2rem;
+      .message{
+        font-size: 12px;
+        color: $primary!important;
+        white-space: nowrap;
+      }
+    }
+    .appbar-date-time-comp{
+      .MuiTypography-root{
+        font-size: 0.875rem !important;
+      }
+    }
+    .menu-buttons-comp{
+      .MuiIconButton-root{
+        padding: 8px;
+      }
+      .MuiIconButton-root.user-profile-icon-button{
+        background-color: transparent;
+        &:focus-visible, &:hover{
+          background-color: transparent;
+          .MuiTypography-root{
+            color: $primary !important;
+          }
+        }
+      }
+    }
+  }
+  .scrollbar-container.false{
+    height: 87% !important;
+  }
+  .scrollbar-container {
+    .MuiTypography-body1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+    .MuiListItem-button:hover,
+    .MuiListItem-button:focus {
+      color: inherit;
+    }
+    .MuiListItem-root.activeLink {
+      margin-left: 16px;
+      border-radius: 30px 0px 0px 30px;
+      background-color: $drawer-active-link-bg-color;
+      .MuiListItemText-root{
+        color: $primary;
+      }
+    }
+    .MuiListItemText-root:focus,.MuiListItemText-root:hover{
+      color: $primary;
+    }
+  }
+  .MuiListItemIcon-root {
+    .MuiBadge-root {
+      .MuiBadge-badge {
+        padding: 0.25em 0.4em;
+        font-size: 75%;
+        font-weight: 500;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        font-family: "Poppins", sans-serif;
+        background-color: $primary;
+        color:$body-bg;
+      }
+    }
+  }
+  .multiple-implementations-toolbar,.dynamic-page-toolbar{
+    gap: 1px;
+    border:0px;
+    margin-bottom: -38px;
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    border-radius: 0.25rem;
+    padding: 10px 15px;
+    .MuiIconButton-root {
+      padding: 2px;
+    }
+    .MuiToggleButton-root {
+      padding: 2px;
+    }
+  }
+}

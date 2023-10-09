@@ -1,0 +1,26 @@
+.cp-transaction-history-page-root{
+    margin: 20px;
+    padding: 10px;
+    background-color:#F3F3F9;
+    .checkbox-wrapper{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 10px 150px !important;
+    }
+    .check-box{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0px 0px;
+        &.Mui-checked {
+            color: #2A3042;
+        };
+    }
+    .check-box-label{
+        display: flex;
+        justify-content: flex-end;
+        color: #495057;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+    }
+}

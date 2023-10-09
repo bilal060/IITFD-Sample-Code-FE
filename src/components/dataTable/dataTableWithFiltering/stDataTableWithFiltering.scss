@@ -1,0 +1,22 @@
+.cp-data-table-with-filtering-root {
+  border-radius: 5px;
+  .MuiDataGrid-root {
+    .MuiDataGrid-main {
+      .MuiDataGrid-columnHeaders {
+        min-height: 50px !important;
+        max-height: 50px !important;
+        background-color: #b7c0f3;
+        color: white;
+        .MuiDataGrid-columnHeadersInner {
+          .MuiDataGrid-columnHeader {
+            p {
+              font-weight: 800 !important;
+              font-size: small;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}

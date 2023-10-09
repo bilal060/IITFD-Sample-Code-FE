@@ -1,0 +1,23 @@
+.cp-add-new-document-root {
+  margin-top: 7rem;
+
+  .paper {
+    padding: 50px;
+  }
+
+  .textarea {
+    width: 100%;
+  }
+
+  .action-button,
+  .action-button-cancel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+  }
+
+  .action-button,
+  .action-button:hover {
+    background-color: #3f51b5;
+  }
+}

@@ -1,0 +1,38 @@
+* {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.00938em !important;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  .action-button {
+    background-color: #3f51b5;
+  }
+  .action-button-cancel {
+    background-color: #6c757d;
+}
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(184, 184, 184); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(141, 141, 141); 
+}

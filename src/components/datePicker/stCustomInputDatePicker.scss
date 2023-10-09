@@ -1,0 +1,18 @@
+.cp-custom-date-picker-root {
+  .cp-box{
+  input, .MuiInputBase-input{
+    width: 100%;
+    font-size: 0.8125rem;
+    padding: 0.47rem 0.75rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    max-height: 29px;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 0.25rem;
+  }
+}
+}

@@ -1,0 +1,14 @@
+.cp-appbar-page-root{
+  width: 250px;
+  margin-top: 10%;
+    .navlink{
+      text-decoration: none;
+      display: flex;
+      padding: 0.5rem 0.5rem;
+      font-size: large;
+      border-bottom: 1px black solid;
+    }
+    .active-navlink{
+      background-color: lightblue;
+    }
+}

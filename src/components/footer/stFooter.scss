@@ -1,0 +1,33 @@
+.cp-footer-root {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background-color: whitesmoke;
+  border-top-style: solid;
+  border-top-color: silver;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+
+  .lang-item {
+    display: flex;
+    align-items: center;
+    .MuiInput-root{
+      font-family: 'Poppins',sans-serif;
+      font-size: 0.8125rem;
+    }
+  }
+
+  .li-footer__item {
+    font-size: 0.8125rem;
+    .nav-link {
+      padding: 0.5rem !important;
+    }
+  }
+
+  .li-footer__list.nav  {
+      display: flex;
+      justify-content: center;
+  }
+}

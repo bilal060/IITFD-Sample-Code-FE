@@ -1,0 +1,18 @@
+.cp-dashboardpage-root {
+  background-color: #f8f8fb;
+  .card{
+    box-shadow: 0 0.75rem 1.5rem #12263f08 !important;
+  }
+  .text-success {
+    font-size: 13px;
+    color: #34c38f !important;
+    opacity: 1;
+  }
+  .text-muted {
+    font-size: 13px;
+    color: "rgba(116, 120, 141, 1)";
+  }
+  .chart-spacing {
+    margin-bottom: 20px;
+  }
+}
